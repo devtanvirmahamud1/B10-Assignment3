@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
 
 <head>
     <meta charset="UTF-8">
@@ -32,7 +32,7 @@
     </script>
     <!-- style sheet -->
     <style>
-        .manrope{
+        .manrope {
             font-family: "Manrope", sans-serif;
         }
     </style>
@@ -42,7 +42,7 @@
 <body class="manrope">
     <header class="container mx-auto mt-5 mb-5">
         <!-- Nav Bar -->
-        <div class="navbar">
+        <div class="navbar px-4">
             <div class="navbar-start">
                 <a class="flex gap-2 font-bold text-3xl items-center"><svg xmlns="http://www.w3.org/2000/svg"
                         fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
@@ -89,8 +89,8 @@
                     </a>
                 </div>
             </div>
-            <div class="dropdown">
-                <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+            <div class="dropdown md:ml-2">
+                <div tabindex="0" role="button" class=" lg:hidden">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
                         stroke="currentColor" class="size-9  rounded-full bg-white p-1 shadow">
                         <path stroke-linecap="round" stroke-linejoin="round"
@@ -100,6 +100,30 @@
                 </div>
             </div>
         </div>
+        <!-- Bannner Content -->
+
+        <div class="px-4">
+            <!-- Banner Image -->
+            <div class="w-9/12 mx-auto lg:w-full lg:flex lg:justify-center lg:items-center">
+                <img src="assets/banner.png" alt="house.png">
+            </div>
+            <!-- Banner Text -->
+            <div>
+                <h1 class="text-4xl lg:text-6xl font-extrabold text-center lg:w-9/12 mx-auto">A barn house of this design has a striking appearance</h1>
+                <p class="text-center mt-3 mb-3 lg:w-9/12 mx-auto">The barn house captivates with its blend of rustic charm and modern sophistication, featuring
+                    weathered wood, sleek metal accents, and large windows that flood the space with natural light.</p>
+                <div class="flex mx-auto justify-center">
+                    <a class="btn bg-[#ABEF5F] bg-opacity-50 rounded-full font-bold px-20 lg:px-7 border border-[#ABEF5F]">View Details<svg
+                            xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" class="size-6 text-black bg-[#ABEF5F] rounded-full p-1">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+
     </header>
     <main>
 
